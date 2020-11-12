@@ -1,4 +1,4 @@
-# swagger_client.RolesApi
+# iriusrisk_python_client_lib.RolesApi
 
 All URIs are relative to *https://demo.iriusrisk.com/api/v1*
 
@@ -19,14 +19,14 @@ Creates a new role. Conditions to be able to perform the action:  - To have the 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RolesApi()
+api_instance = iriusrisk_python_client_lib.RolesApi()
 api_token = 'api_token_example' # str | Authentication token
-create_role_request_body = swagger_client.CreateRoleRequestBody() # CreateRoleRequestBody | JSON data that contains information of the fields
+create_role_request_body = iriusrisk_python_client_lib.CreateRoleRequestBody() # CreateRoleRequestBody | JSON data that contains information of the fields
 
 try:
     # Creates a new Role
@@ -68,12 +68,12 @@ Deletes an existing role. Conditions to be able to perform the action: - To have
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RolesApi()
+api_instance = iriusrisk_python_client_lib.RolesApi()
 api_token = 'api_token_example' # str | Authentication token
 role_name = 'role_name_example' # str | Role name to delete
 

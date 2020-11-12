@@ -1,4 +1,4 @@
-# swagger_client.TemplatesApi
+# iriusrisk_python_client_lib.TemplatesApi
 
 All URIs are relative to *https://demo.iriusrisk.com/api/v1*
 
@@ -18,12 +18,12 @@ Creates a new product, library or template from a XML file upload. Conditions to
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.TemplatesApi()
+api_instance = iriusrisk_python_client_lib.TemplatesApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Product ref
 name = 'name_example' # str | Product name

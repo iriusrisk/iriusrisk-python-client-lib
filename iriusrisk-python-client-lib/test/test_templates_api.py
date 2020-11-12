@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.templates_api import TemplatesApi  # noqa: E501
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.api.templates_api import TemplatesApi  # noqa: E501
+from iriusrisk_python_client_lib.rest import ApiException
 
 
 class TestTemplatesApi(unittest.TestCase):
     """TemplatesApi unit test stubs"""
 
     def setUp(self):
-        self.api = swagger_client.api.templates_api.TemplatesApi()  # noqa: E501
+        self.api = iriusrisk_python_client_lib.api.templates_api.TemplatesApi()  # noqa: E501
 
     def tearDown(self):
         pass

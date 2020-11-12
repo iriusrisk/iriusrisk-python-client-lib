@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.unassing_users_group_request_body import UnassingUsersGroupRequestBody  # noqa: E501
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.models.unassing_users_group_request_body import UnassingUsersGroupRequestBody  # noqa: E501
+from iriusrisk_python_client_lib.rest import ApiException
 
 
 class TestUnassingUsersGroupRequestBody(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestUnassingUsersGroupRequestBody(unittest.TestCase):
     def testUnassingUsersGroupRequestBody(self):
         """Test UnassingUsersGroupRequestBody"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.unassing_users_group_request_body.UnassingUsersGroupRequestBody()  # noqa: E501
+        # model = iriusrisk_python_client_lib.models.unassing_users_group_request_body.UnassingUsersGroupRequestBody()  # noqa: E501
         pass
 
 

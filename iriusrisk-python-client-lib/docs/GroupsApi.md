@@ -1,4 +1,4 @@
-# swagger_client.GroupsApi
+# iriusrisk_python_client_lib.GroupsApi
 
 All URIs are relative to *https://demo.iriusrisk.com/api/v1*
 
@@ -29,12 +29,12 @@ Gets a list of all user's groups. Conditions to be able to perform the action:  
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupsApi()
+api_instance = iriusrisk_python_client_lib.GroupsApi()
 api_token = 'api_token_example' # str | Authentication token
 
 try:
@@ -77,12 +77,12 @@ Deletes a users group. Conditions to be able to perform the action:    - To have
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupsApi()
+api_instance = iriusrisk_python_client_lib.GroupsApi()
 api_token = 'api_token_example' # str | Authentication token
 group_ref = 'group_ref_example' # str | unique name of the group
 
@@ -126,12 +126,12 @@ Returns the group details for the requested group. Conditions to be able to perf
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupsApi()
+api_instance = iriusrisk_python_client_lib.GroupsApi()
 api_token = 'api_token_example' # str | Authentication token
 group_ref = 'group_ref_example' # str | unique name of the group
 
@@ -176,15 +176,15 @@ Updates a users group. Conditions to be able to perform the action:    - To have
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupsApi()
+api_instance = iriusrisk_python_client_lib.GroupsApi()
 api_token = 'api_token_example' # str | Authentication token
 group_ref = 'group_ref_example' # str | unique ref of the group
-update_group_request_body = swagger_client.UpdateGroupRequestBody() # UpdateGroupRequestBody | JSON data that contains information of the fields
+update_group_request_body = iriusrisk_python_client_lib.UpdateGroupRequestBody() # UpdateGroupRequestBody | JSON data that contains information of the fields
 
 try:
     # Update a users group
@@ -228,15 +228,15 @@ Unassign a list of users from a group. Conditions to be able to perform the acti
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupsApi()
+api_instance = iriusrisk_python_client_lib.GroupsApi()
 api_token = 'api_token_example' # str | Authentication token
 group = 'group_example' # str | name of the group
-unassing_users_group_request_body = swagger_client.UnassingUsersGroupRequestBody() # UnassingUsersGroupRequestBody | JSON object that contains information to unassign users from group
+unassing_users_group_request_body = iriusrisk_python_client_lib.UnassingUsersGroupRequestBody() # UnassingUsersGroupRequestBody | JSON object that contains information to unassign users from group
 
 try:
     # Unassign a list of users from a group
@@ -279,12 +279,12 @@ List users who belongs to a group. Conditions to be able to perform the action: 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupsApi()
+api_instance = iriusrisk_python_client_lib.GroupsApi()
 api_token = 'api_token_example' # str | Authentication token
 group = 'group_example' # str | name of the group
 
@@ -329,15 +329,15 @@ Assigns users to a group. Conditions to be able to perform the action:  - To hav
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupsApi()
+api_instance = iriusrisk_python_client_lib.GroupsApi()
 api_token = 'api_token_example' # str | Authentication token
 group = 'group_example' # str | name of the group
-assign_user_group_request_body = swagger_client.AssignUserGroupRequestBody() # AssignUserGroupRequestBody | JSON object that contains information to assign users to group
+assign_user_group_request_body = iriusrisk_python_client_lib.AssignUserGroupRequestBody() # AssignUserGroupRequestBody | JSON object that contains information to assign users to group
 
 try:
     # Assigns users to a group
@@ -381,12 +381,12 @@ Unassign a user from a group. Conditions to be able to perform the action:  - To
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupsApi()
+api_instance = iriusrisk_python_client_lib.GroupsApi()
 api_token = 'api_token_example' # str | Authentication token
 group = 'group_example' # str | name of the group
 user = 'user_example' # str | user to be removed from group
@@ -432,14 +432,14 @@ Creates a new user group. Conditions to be able to perform the action:    - To h
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupsApi()
+api_instance = iriusrisk_python_client_lib.GroupsApi()
 api_token = 'api_token_example' # str | Authentication token
-create_group_request_body = swagger_client.CreateGroupRequestBody() # CreateGroupRequestBody | JSON data that contains information of the fields
+create_group_request_body = iriusrisk_python_client_lib.CreateGroupRequestBody() # CreateGroupRequestBody | JSON data that contains information of the fields
 
 try:
     # Creates a new user group
@@ -482,15 +482,15 @@ Unassigns a list of user groups from a product. Conditions to be able to perform
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupsApi()
+api_instance = iriusrisk_python_client_lib.GroupsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference for product
-unassign_groups_product_request_body = swagger_client.UnassignGroupsProductRequestBody() # UnassignGroupsProductRequestBody | JSON object that contains information to unassign groups from a product
+unassign_groups_product_request_body = iriusrisk_python_client_lib.UnassignGroupsProductRequestBody() # UnassignGroupsProductRequestBody | JSON object that contains information to unassign groups from a product
 
 try:
     # Unassigns a list of user groups from a product.
@@ -534,12 +534,12 @@ List all groups assigned to a product.     Conditions to be able to perform the 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupsApi()
+api_instance = iriusrisk_python_client_lib.GroupsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference to product
 
@@ -584,15 +584,15 @@ Assigns groups of users to a product. Conditions to be able to perform the actio
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupsApi()
+api_instance = iriusrisk_python_client_lib.GroupsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference for product
-assign_groups_product_request_body = swagger_client.AssignGroupsProductRequestBody() # AssignGroupsProductRequestBody | JSON object that contains information to assign groups to product
+assign_groups_product_request_body = iriusrisk_python_client_lib.AssignGroupsProductRequestBody() # AssignGroupsProductRequestBody | JSON object that contains information to assign groups to product
 
 try:
     # Assigns groups of users to a product.

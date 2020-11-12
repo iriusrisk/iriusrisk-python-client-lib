@@ -1,4 +1,4 @@
-# swagger_client.RulesApi
+# iriusrisk_python_client_lib.RulesApi
 
 All URIs are relative to *https://demo.iriusrisk.com/api/v1*
 
@@ -18,12 +18,12 @@ Execute the rules engine for a product and for all components within the product
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RulesApi()
+api_instance = iriusrisk_python_client_lib.RulesApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for Product
 delete_countermeasures = 'delete_countermeasures_example' # str | This flag indicates if the rules execution will delete the threat and countermeasures which don't apply to the new product threat model. If true, the threats and countermeasures will be automatically removed from the model. If false, the threats and countermeasures won't be removed from the model. (optional)

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.risk_count import RiskCount  # noqa: E501
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.models.risk_count import RiskCount  # noqa: E501
+from iriusrisk_python_client_lib.rest import ApiException
 
 
 class TestRiskCount(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestRiskCount(unittest.TestCase):
     def testRiskCount(self):
         """Test RiskCount"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.risk_count.RiskCount()  # noqa: E501
+        # model = iriusrisk_python_client_lib.models.risk_count.RiskCount()  # noqa: E501
         pass
 
 

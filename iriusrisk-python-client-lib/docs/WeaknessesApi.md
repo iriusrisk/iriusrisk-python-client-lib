@@ -1,4 +1,4 @@
-# swagger_client.WeaknessesApi
+# iriusrisk_python_client_lib.WeaknessesApi
 
 All URIs are relative to *https://demo.iriusrisk.com/api/v1*
 
@@ -22,18 +22,18 @@ Associates weakness to a threat in a risk pattern. Conditions to be able to perf
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WeaknessesApi()
+api_instance = iriusrisk_python_client_lib.WeaknessesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 risk_pattern_ref = 'risk_pattern_ref_example' # str | Reference for Risk Pattern
 use_case_ref = 'use_case_ref_example' # str | Reference for Use Case
 threat_ref = 'threat_ref_example' # str | Reference for Threat
-associate_weakness_threat_library_request_body = swagger_client.AssociateWeaknessThreatLibraryRequestBody() # AssociateWeaknessThreatLibraryRequestBody | JSON data that contains information of the fields
+associate_weakness_threat_library_request_body = iriusrisk_python_client_lib.AssociateWeaknessThreatLibraryRequestBody() # AssociateWeaknessThreatLibraryRequestBody | JSON data that contains information of the fields
 
 try:
     # Associates weakness to a threat in a risk pattern.
@@ -80,19 +80,19 @@ Associates a countermeasure to a weakness in a risk pattern. Conditions to be ab
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WeaknessesApi()
+api_instance = iriusrisk_python_client_lib.WeaknessesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 risk_pattern_ref = 'risk_pattern_ref_example' # str | Reference for Risk Pattern
 use_case_ref = 'use_case_ref_example' # str | Reference for Use Case
 threat_ref = 'threat_ref_example' # str | Reference for Threat
 weakness_ref = 'weakness_ref_example' # str | Reference for Weakness
-associate_countermeasure_weakness_library_request_body = swagger_client.AssociateCountermeasureWeaknessLibraryRequestBody() # AssociateCountermeasureWeaknessLibraryRequestBody | JSON data that contains information of the fields
+associate_countermeasure_weakness_library_request_body = iriusrisk_python_client_lib.AssociateCountermeasureWeaknessLibraryRequestBody() # AssociateCountermeasureWeaknessLibraryRequestBody | JSON data that contains information of the fields
 
 try:
     # Associates a countermeasure to a weakness in a risk pattern.
@@ -140,16 +140,16 @@ Creates a new Weakness in a risk pattern. Conditions to be able to perform the a
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WeaknessesApi()
+api_instance = iriusrisk_python_client_lib.WeaknessesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 risk_pattern_ref = 'risk_pattern_ref_example' # str | Reference for Risk Pattern
-create_weakness_library_request_body = swagger_client.CreateWeaknessLibraryRequestBody() # CreateWeaknessLibraryRequestBody | JSON data that contains information of the fields
+create_weakness_library_request_body = iriusrisk_python_client_lib.CreateWeaknessLibraryRequestBody() # CreateWeaknessLibraryRequestBody | JSON data that contains information of the fields
 
 try:
     # Creates a new weakness in a risk pattern
@@ -194,12 +194,12 @@ Returns a list of all the weaknesses of a product. Conditions to be able to perf
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WeaknessesApi()
+api_instance = iriusrisk_python_client_lib.WeaknessesApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 
@@ -244,12 +244,12 @@ Returns a list of all the weaknesses of a product. With the optional parameter `
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WeaknessesApi()
+api_instance = iriusrisk_python_client_lib.WeaknessesApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 test_state = 'test_state_example' # str | Code for a test state

@@ -1,4 +1,4 @@
-# swagger_client.UsersApi
+# iriusrisk_python_client_lib.UsersApi
 
 All URIs are relative to *https://demo.iriusrisk.com/api/v1*
 
@@ -30,15 +30,15 @@ Unassign a list of users from a group. Conditions to be able to perform the acti
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UsersApi()
+api_instance = iriusrisk_python_client_lib.UsersApi()
 api_token = 'api_token_example' # str | Authentication token
 group = 'group_example' # str | name of the group
-unassing_users_group_request_body = swagger_client.UnassingUsersGroupRequestBody() # UnassingUsersGroupRequestBody | JSON object that contains information to unassign users from group
+unassing_users_group_request_body = iriusrisk_python_client_lib.UnassingUsersGroupRequestBody() # UnassingUsersGroupRequestBody | JSON object that contains information to unassign users from group
 
 try:
     # Unassign a list of users from a group
@@ -81,12 +81,12 @@ List users who belongs to a group. Conditions to be able to perform the action: 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UsersApi()
+api_instance = iriusrisk_python_client_lib.UsersApi()
 api_token = 'api_token_example' # str | Authentication token
 group = 'group_example' # str | name of the group
 
@@ -131,15 +131,15 @@ Assigns users to a group. Conditions to be able to perform the action:  - To hav
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UsersApi()
+api_instance = iriusrisk_python_client_lib.UsersApi()
 api_token = 'api_token_example' # str | Authentication token
 group = 'group_example' # str | name of the group
-assign_user_group_request_body = swagger_client.AssignUserGroupRequestBody() # AssignUserGroupRequestBody | JSON object that contains information to assign users to group
+assign_user_group_request_body = iriusrisk_python_client_lib.AssignUserGroupRequestBody() # AssignUserGroupRequestBody | JSON object that contains information to assign users to group
 
 try:
     # Assigns users to a group
@@ -183,12 +183,12 @@ Unassign a user from a group. Conditions to be able to perform the action:  - To
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UsersApi()
+api_instance = iriusrisk_python_client_lib.UsersApi()
 api_token = 'api_token_example' # str | Authentication token
 group = 'group_example' # str | name of the group
 user = 'user_example' # str | user to be removed from group
@@ -234,15 +234,15 @@ Unassign a list of users from a product. Conditions to be able to perform the ac
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UsersApi()
+api_instance = iriusrisk_python_client_lib.UsersApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference for product
-unassign_users_product_request_body = swagger_client.UnassignUsersProductRequestBody() # UnassignUsersProductRequestBody | JSON object that contains information to unassign users from product
+unassign_users_product_request_body = iriusrisk_python_client_lib.UnassignUsersProductRequestBody() # UnassignUsersProductRequestBody | JSON object that contains information to unassign users from product
 
 try:
     # Unassigns a list of users from a product.
@@ -285,12 +285,12 @@ List all users assigned to a product.     Conditions to be able to perform the a
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UsersApi()
+api_instance = iriusrisk_python_client_lib.UsersApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference to product
 
@@ -335,15 +335,15 @@ Assigns users to a product. Conditions to be able to perform the action:   - To 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UsersApi()
+api_instance = iriusrisk_python_client_lib.UsersApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference for product
-assign_users_product_request_body = swagger_client.AssignUsersProductRequestBody() # AssignUsersProductRequestBody | JSON data that contains the information to assign users to product
+assign_users_product_request_body = iriusrisk_python_client_lib.AssignUsersProductRequestBody() # AssignUsersProductRequestBody | JSON data that contains the information to assign users to product
 
 try:
     # Assigns users to a product.
@@ -387,12 +387,12 @@ Unassigns a user from a product. Conditions to be able to perform the action:   
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UsersApi()
+api_instance = iriusrisk_python_client_lib.UsersApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference for product
 user = 'user_example' # str | Username of the user who will be unassigned from the product
@@ -438,12 +438,12 @@ Returns a list of all the users of the system. Conditions to be able to perform 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UsersApi()
+api_instance = iriusrisk_python_client_lib.UsersApi()
 api_token = 'api_token_example' # str | Authentication token
 
 try:
@@ -486,14 +486,14 @@ Creates a new user. Conditions to be able to perform the action:   - To have the
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UsersApi()
+api_instance = iriusrisk_python_client_lib.UsersApi()
 api_token = 'api_token_example' # str | Authentication token
-create_user_request_body = swagger_client.CreateUserRequestBody() # CreateUserRequestBody | JSON data that contains information to creates new user
+create_user_request_body = iriusrisk_python_client_lib.CreateUserRequestBody() # CreateUserRequestBody | JSON data that contains information to creates new user
 
 try:
     # Creates a new user
@@ -535,12 +535,12 @@ Deletes a user. Conditions to be able to perform the action:   - To have the per
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UsersApi()
+api_instance = iriusrisk_python_client_lib.UsersApi()
 api_token = 'api_token_example' # str | Authentication token
 username = 'username_example' # str | User's username
 
@@ -584,12 +584,12 @@ Get all the relevant information of a user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UsersApi()
+api_instance = iriusrisk_python_client_lib.UsersApi()
 api_token = 'api_token_example' # str | Authentication token
 username = 'username_example' # str | User's username
 
@@ -634,12 +634,12 @@ Generates a new user API token. If the user already has a generated API token, g
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UsersApi()
+api_instance = iriusrisk_python_client_lib.UsersApi()
 api_token = 'api_token_example' # str | Authentication token
 username = 'username_example' # str | User's username
 

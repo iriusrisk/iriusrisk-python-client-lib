@@ -18,7 +18,7 @@ import re  # noqa: F401
 # python 2 and python 3 compatibility library
 import six
 
-from swagger_client.api_client import ApiClient
+from iriusrisk_python_client_lib.api_client import ApiClient
 
 
 class LibrariesApi(object):

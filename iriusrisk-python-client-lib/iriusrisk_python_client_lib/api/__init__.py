@@ -1,0 +1,22 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from iriusrisk_python_client_lib.api.components_api import ComponentsApi
+from iriusrisk_python_client_lib.api.controls_api import ControlsApi
+from iriusrisk_python_client_lib.api.countermeasures_api import CountermeasuresApi
+from iriusrisk_python_client_lib.api.groups_api import GroupsApi
+from iriusrisk_python_client_lib.api.libraries_api import LibrariesApi
+from iriusrisk_python_client_lib.api.products_api import ProductsApi
+from iriusrisk_python_client_lib.api.risk_patterns_api import RiskPatternsApi
+from iriusrisk_python_client_lib.api.risks_api import RisksApi
+from iriusrisk_python_client_lib.api.roles_api import RolesApi
+from iriusrisk_python_client_lib.api.rules_api import RulesApi
+from iriusrisk_python_client_lib.api.templates_api import TemplatesApi
+from iriusrisk_python_client_lib.api.tests_api import TestsApi
+from iriusrisk_python_client_lib.api.threats_api import ThreatsApi
+from iriusrisk_python_client_lib.api.token_api import TokenApi
+from iriusrisk_python_client_lib.api.use_cases_api import UseCasesApi
+from iriusrisk_python_client_lib.api.users_api import UsersApi
+from iriusrisk_python_client_lib.api.weaknesses_api import WeaknessesApi

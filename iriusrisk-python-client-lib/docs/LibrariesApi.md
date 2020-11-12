@@ -1,4 +1,4 @@
-# swagger_client.LibrariesApi
+# iriusrisk_python_client_lib.LibrariesApi
 
 All URIs are relative to *https://demo.iriusrisk.com/api/v1*
 
@@ -31,12 +31,12 @@ Deletes a library. Conditions to be able to perform the action:   - To have the 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 
@@ -80,12 +80,12 @@ Gets the library details. Conditions to be able to perform the action:   - To ha
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 
@@ -130,15 +130,15 @@ Creates new Risk Pattern. Conditions to be able to perform the action:   - To ha
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
-create_risk_pattern_request_body = swagger_client.CreateRiskPatternRequestBody() # CreateRiskPatternRequestBody | JSON data that contains information of the fields
+create_risk_pattern_request_body = iriusrisk_python_client_lib.CreateRiskPatternRequestBody() # CreateRiskPatternRequestBody | JSON data that contains information of the fields
 
 try:
     # Creates new Risk Pattern
@@ -182,16 +182,16 @@ Creates new countermeasure in a risk pattern. Conditions to be able to perform t
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 risk_pattern_ref = 'risk_pattern_ref_example' # str | Reference for Risk Pattern
-create_countermeasure_library_request_body = swagger_client.ControlCommand() # ControlCommand | JSON data that contains information of the fields
+create_countermeasure_library_request_body = iriusrisk_python_client_lib.ControlCommand() # ControlCommand | JSON data that contains information of the fields
 
 try:
     # Creates new countermeasure in a risk pattern
@@ -236,12 +236,12 @@ Deletes a Risk Pattern. Conditions to be able to perform the action:   - To have
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 risk_pattern_ref = 'risk_pattern_ref_example' # str | Reference for Risk Pattern
@@ -287,12 +287,12 @@ Gets Risk Pattern details. Conditions to be able to perform the action:   - To h
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 risk_pattern_ref = 'risk_pattern_ref_example' # str | Reference for Risk Pattern
@@ -339,16 +339,16 @@ Creates new use case in a library. Conditions to be able to perform the action: 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 risk_pattern_ref = 'risk_pattern_ref_example' # str | Reference for Risk Pattern
-create_use_case_library_request_body = swagger_client.CreateUseCaseLibraryRequestBody() # CreateUseCaseLibraryRequestBody | JSON data that contains information of the fields
+create_use_case_library_request_body = iriusrisk_python_client_lib.CreateUseCaseLibraryRequestBody() # CreateUseCaseLibraryRequestBody | JSON data that contains information of the fields
 
 try:
     # Creates new use case in a library.
@@ -393,17 +393,17 @@ Creates a new threat in a library. Conditions to be able to perform the action: 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 risk_pattern_ref = 'risk_pattern_ref_example' # str | Reference for Risk Pattern
 use_case_ref = 'use_case_ref_example' # str | Reference for Use Case
-create_threat_library_request_body = swagger_client.CreateThreatLibraryRequestBody() # CreateThreatLibraryRequestBody | JSON data that contains information of the fields
+create_threat_library_request_body = iriusrisk_python_client_lib.CreateThreatLibraryRequestBody() # CreateThreatLibraryRequestBody | JSON data that contains information of the fields
 
 try:
     # Creates a new threat in a library.
@@ -449,18 +449,18 @@ Associates a countermeasure to a threat in a risk pattern. Conditions to be able
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 risk_pattern_ref = 'risk_pattern_ref_example' # str | Reference for Risk Pattern
 use_case_ref = 'use_case_ref_example' # str | Reference for Use Case
 threat_ref = 'threat_ref_example' # str | Reference for Threat
-associate_countermeasure_threat_library_request_body = swagger_client.AssociateCountermeasureThreatLibraryRequestBody() # AssociateCountermeasureThreatLibraryRequestBody | JSON data that contains information of the fields
+associate_countermeasure_threat_library_request_body = iriusrisk_python_client_lib.AssociateCountermeasureThreatLibraryRequestBody() # AssociateCountermeasureThreatLibraryRequestBody | JSON data that contains information of the fields
 
 try:
     # Associates a countermeasure to a threat in a risk pattern.
@@ -507,18 +507,18 @@ Associates weakness to a threat in a risk pattern. Conditions to be able to perf
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 risk_pattern_ref = 'risk_pattern_ref_example' # str | Reference for Risk Pattern
 use_case_ref = 'use_case_ref_example' # str | Reference for Use Case
 threat_ref = 'threat_ref_example' # str | Reference for Threat
-associate_weakness_threat_library_request_body = swagger_client.AssociateWeaknessThreatLibraryRequestBody() # AssociateWeaknessThreatLibraryRequestBody | JSON data that contains information of the fields
+associate_weakness_threat_library_request_body = iriusrisk_python_client_lib.AssociateWeaknessThreatLibraryRequestBody() # AssociateWeaknessThreatLibraryRequestBody | JSON data that contains information of the fields
 
 try:
     # Associates weakness to a threat in a risk pattern.
@@ -565,19 +565,19 @@ Associates a countermeasure to a weakness in a risk pattern. Conditions to be ab
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 risk_pattern_ref = 'risk_pattern_ref_example' # str | Reference for Risk Pattern
 use_case_ref = 'use_case_ref_example' # str | Reference for Use Case
 threat_ref = 'threat_ref_example' # str | Reference for Threat
 weakness_ref = 'weakness_ref_example' # str | Reference for Weakness
-associate_countermeasure_weakness_library_request_body = swagger_client.AssociateCountermeasureWeaknessLibraryRequestBody() # AssociateCountermeasureWeaknessLibraryRequestBody | JSON data that contains information of the fields
+associate_countermeasure_weakness_library_request_body = iriusrisk_python_client_lib.AssociateCountermeasureWeaknessLibraryRequestBody() # AssociateCountermeasureWeaknessLibraryRequestBody | JSON data that contains information of the fields
 
 try:
     # Associates a countermeasure to a weakness in a risk pattern.
@@ -625,16 +625,16 @@ Creates a new Weakness in a risk pattern. Conditions to be able to perform the a
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
 library_ref = 'library_ref_example' # str | Reference for library
 risk_pattern_ref = 'risk_pattern_ref_example' # str | Reference for Risk Pattern
-create_weakness_library_request_body = swagger_client.CreateWeaknessLibraryRequestBody() # CreateWeaknessLibraryRequestBody | JSON data that contains information of the fields
+create_weakness_library_request_body = iriusrisk_python_client_lib.CreateWeaknessLibraryRequestBody() # CreateWeaknessLibraryRequestBody | JSON data that contains information of the fields
 
 try:
     # Creates a new weakness in a risk pattern
@@ -679,14 +679,14 @@ Creates a new empty Library. Conditions to be able to perform the action:   - To
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
-create_library_request_body = swagger_client.CreateLibraryRequestBody() # CreateLibraryRequestBody | JSON data that contains information of the fields
+create_library_request_body = iriusrisk_python_client_lib.CreateLibraryRequestBody() # CreateLibraryRequestBody | JSON data that contains information of the fields
 
 try:
     # Creates a Library
@@ -729,12 +729,12 @@ Creates a new product, library or template from a XML file upload. Conditions to
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LibrariesApi()
+api_instance = iriusrisk_python_client_lib.LibrariesApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Product ref
 name = 'name_example' # str | Product name

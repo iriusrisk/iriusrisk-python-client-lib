@@ -1,4 +1,4 @@
-# swagger_client.ControlsApi
+# iriusrisk_python_client_lib.ControlsApi
 
 All URIs are relative to *https://demo.iriusrisk.com/api/v1*
 
@@ -21,17 +21,17 @@ Sets the desired status to a countermeasure. Possible values are:             - 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ControlsApi()
+api_instance = iriusrisk_python_client_lib.ControlsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 component_ref = 'component_ref_example' # str | ID for component
 control_ref = 'control_ref_example' # str | Control ref
-update_status_countermeasure_request_body = swagger_client.UpdateStatusCountermeasureRequestBody() # UpdateStatusCountermeasureRequestBody | JSON data that contains the information to update countermeasure
+update_status_countermeasure_request_body = iriusrisk_python_client_lib.UpdateStatusCountermeasureRequestBody() # UpdateStatusCountermeasureRequestBody | JSON data that contains the information to update countermeasure
 
 try:
     # Sets the desired status to a countermeasure
@@ -76,12 +76,12 @@ Returns a list of all the countermeasures of a product. Conditions to be able to
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ControlsApi()
+api_instance = iriusrisk_python_client_lib.ControlsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 
@@ -126,12 +126,12 @@ Returns a list of all the implemented countermeasures of a product. Conditions t
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ControlsApi()
+api_instance = iriusrisk_python_client_lib.ControlsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 
@@ -176,12 +176,12 @@ Returns a list of all the required countermeasures of a product. Conditions to b
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ControlsApi()
+api_instance = iriusrisk_python_client_lib.ControlsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 

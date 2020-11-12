@@ -1,4 +1,4 @@
-# swagger_client.TokenApi
+# iriusrisk_python_client_lib.TokenApi
 
 All URIs are relative to *https://demo.iriusrisk.com/api/v1*
 
@@ -18,12 +18,12 @@ Generates a new user API token. If the user already has a generated API token, g
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.TokenApi()
+api_instance = iriusrisk_python_client_lib.TokenApi()
 api_token = 'api_token_example' # str | Authentication token
 username = 'username_example' # str | User's username
 

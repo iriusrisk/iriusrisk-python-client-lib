@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.update_status_test_request_body import UpdateStatusTestRequestBody  # noqa: E501
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.models.update_status_test_request_body import UpdateStatusTestRequestBody  # noqa: E501
+from iriusrisk_python_client_lib.rest import ApiException
 
 
 class TestUpdateStatusTestRequestBody(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestUpdateStatusTestRequestBody(unittest.TestCase):
     def testUpdateStatusTestRequestBody(self):
         """Test UpdateStatusTestRequestBody"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.update_status_test_request_body.UpdateStatusTestRequestBody()  # noqa: E501
+        # model = iriusrisk_python_client_lib.models.update_status_test_request_body.UpdateStatusTestRequestBody()  # noqa: E501
         pass
 
 

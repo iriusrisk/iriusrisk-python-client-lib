@@ -1,4 +1,4 @@
-# swagger_client.TestsApi
+# iriusrisk_python_client_lib.TestsApi
 
 All URIs are relative to *https://demo.iriusrisk.com/api/v1*
 
@@ -20,17 +20,17 @@ Updates a single test to a component. Conditions to be able to perform the actio
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.TestsApi()
+api_instance = iriusrisk_python_client_lib.TestsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 component_ref = 'component_ref_example' # str | ID for component
 cwe = 'cwe_example' # str | countermeasure or weakness CWE
-update_status_test_request_body = swagger_client.UpdateStatusTestRequestBody() # UpdateStatusTestRequestBody | JSON data that contains the information to update test
+update_status_test_request_body = iriusrisk_python_client_lib.UpdateStatusTestRequestBody() # UpdateStatusTestRequestBody | JSON data that contains the information to update test
 
 try:
     # Updates a single test to a component.
@@ -76,12 +76,12 @@ Imports test results from different sources (OWASP ZAP, Cucumber, Micro Focus Fo
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.TestsApi()
+api_instance = iriusrisk_python_client_lib.TestsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 component_ref = 'component_ref_example' # str | ID for component
@@ -132,12 +132,12 @@ Imports test results from different sources (OWASP ZAP, Cucumber, Micro Focus Fo
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.TestsApi()
+api_instance = iriusrisk_python_client_lib.TestsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 test_type = 'test_type_example' # str | Type of test to be imported (zap|cucumber|junit|hp-fortify)

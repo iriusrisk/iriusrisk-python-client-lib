@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.threat_short import ThreatShort  # noqa: E501
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.models.threat_short import ThreatShort  # noqa: E501
+from iriusrisk_python_client_lib.rest import ApiException
 
 
 class TestThreatShort(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestThreatShort(unittest.TestCase):
     def testThreatShort(self):
         """Test ThreatShort"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.threat_short.ThreatShort()  # noqa: E501
+        # model = iriusrisk_python_client_lib.models.threat_short.ThreatShort()  # noqa: E501
         pass
 
 

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.associate_countermeasure_weakness_library_request_body import AssociateCountermeasureWeaknessLibraryRequestBody  # noqa: E501
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.models.associate_countermeasure_weakness_library_request_body import AssociateCountermeasureWeaknessLibraryRequestBody  # noqa: E501
+from iriusrisk_python_client_lib.rest import ApiException
 
 
 class TestAssociateCountermeasureWeaknessLibraryRequestBody(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestAssociateCountermeasureWeaknessLibraryRequestBody(unittest.TestCase):
     def testAssociateCountermeasureWeaknessLibraryRequestBody(self):
         """Test AssociateCountermeasureWeaknessLibraryRequestBody"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.associate_countermeasure_weakness_library_request_body.AssociateCountermeasureWeaknessLibraryRequestBody()  # noqa: E501
+        # model = iriusrisk_python_client_lib.models.associate_countermeasure_weakness_library_request_body.AssociateCountermeasureWeaknessLibraryRequestBody()  # noqa: E501
         pass
 
 

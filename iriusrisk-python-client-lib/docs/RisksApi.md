@@ -1,4 +1,4 @@
-# swagger_client.RisksApi
+# iriusrisk_python_client_lib.RisksApi
 
 All URIs are relative to *https://demo.iriusrisk.com/api/v1*
 
@@ -18,12 +18,12 @@ This endpoint returns a summary of the risks of a product. Conditions to be able
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RisksApi()
+api_instance = iriusrisk_python_client_lib.RisksApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 

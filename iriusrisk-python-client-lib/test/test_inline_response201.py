@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.inline_response201 import InlineResponse201  # noqa: E501
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.models.inline_response201 import InlineResponse201  # noqa: E501
+from iriusrisk_python_client_lib.rest import ApiException
 
 
 class TestInlineResponse201(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestInlineResponse201(unittest.TestCase):
     def testInlineResponse201(self):
         """Test InlineResponse201"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.inline_response201.InlineResponse201()  # noqa: E501
+        # model = iriusrisk_python_client_lib.models.inline_response201.InlineResponse201()  # noqa: E501
         pass
 
 

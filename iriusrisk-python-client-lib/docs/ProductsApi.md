@@ -1,4 +1,4 @@
-# swagger_client.ProductsApi
+# iriusrisk_python_client_lib.ProductsApi
 
 All URIs are relative to *https://demo.iriusrisk.com/api/v1*
 
@@ -44,12 +44,12 @@ Gets a list of all products visible by the user who perform the call. Conditions
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 max = 1 # int | maximun number of items returned (optional) (default to 1)
 index = 1 # int | index of the first element to return (optional) (default to 1)
@@ -98,14 +98,14 @@ Createa a new product. Conditions to be able to perform the action:   - To have 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
-create_product_request_body = swagger_client.CreateProduct() # CreateProduct | JSON data that contains information to create new product
+create_product_request_body = iriusrisk_python_client_lib.CreateProduct() # CreateProduct | JSON data that contains information to create new product
 
 try:
     # Creates a new product
@@ -148,17 +148,17 @@ Sets the desired status to a countermeasure. Possible values are:             - 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 component_ref = 'component_ref_example' # str | ID for component
 control_ref = 'control_ref_example' # str | Control ref
-update_status_countermeasure_request_body = swagger_client.UpdateStatusCountermeasureRequestBody() # UpdateStatusCountermeasureRequestBody | JSON data that contains the information to update countermeasure
+update_status_countermeasure_request_body = iriusrisk_python_client_lib.UpdateStatusCountermeasureRequestBody() # UpdateStatusCountermeasureRequestBody | JSON data that contains the information to update countermeasure
 
 try:
     # Sets the desired status to a countermeasure
@@ -203,17 +203,17 @@ Updates a single test to a component. Conditions to be able to perform the actio
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 component_ref = 'component_ref_example' # str | ID for component
 cwe = 'cwe_example' # str | countermeasure or weakness CWE
-update_status_test_request_body = swagger_client.UpdateStatusTestRequestBody() # UpdateStatusTestRequestBody | JSON data that contains the information to update test
+update_status_test_request_body = iriusrisk_python_client_lib.UpdateStatusTestRequestBody() # UpdateStatusTestRequestBody | JSON data that contains the information to update test
 
 try:
     # Updates a single test to a component.
@@ -259,12 +259,12 @@ Imports test results from different sources (OWASP ZAP, Cucumber, Micro Focus Fo
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 component_ref = 'component_ref_example' # str | ID for component
@@ -315,12 +315,12 @@ Returns a list of all the countermeasures of a product. Conditions to be able to
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 
@@ -365,12 +365,12 @@ Returns a list of all the implemented countermeasures of a product. Conditions t
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 
@@ -415,12 +415,12 @@ Returns a list of all the required countermeasures of a product. Conditions to b
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 
@@ -465,12 +465,12 @@ Deletes a product. Conditions to be able to perform the action:   - To have the 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 
@@ -514,12 +514,12 @@ Gets a an image in png format of the product diagram. Conditions to be able to p
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 
@@ -564,12 +564,12 @@ Gets the details of a product. Conditions to be able to perform the action:   - 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 
@@ -614,15 +614,15 @@ Unassigns a list of user groups from a product. Conditions to be able to perform
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference for product
-unassign_groups_product_request_body = swagger_client.UnassignGroupsProductRequestBody() # UnassignGroupsProductRequestBody | JSON object that contains information to unassign groups from a product
+unassign_groups_product_request_body = iriusrisk_python_client_lib.UnassignGroupsProductRequestBody() # UnassignGroupsProductRequestBody | JSON object that contains information to unassign groups from a product
 
 try:
     # Unassigns a list of user groups from a product.
@@ -666,12 +666,12 @@ List all groups assigned to a product.     Conditions to be able to perform the 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference to product
 
@@ -716,15 +716,15 @@ Assigns groups of users to a product. Conditions to be able to perform the actio
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference for product
-assign_groups_product_request_body = swagger_client.AssignGroupsProductRequestBody() # AssignGroupsProductRequestBody | JSON object that contains information to assign groups to product
+assign_groups_product_request_body = iriusrisk_python_client_lib.AssignGroupsProductRequestBody() # AssignGroupsProductRequestBody | JSON object that contains information to assign groups to product
 
 try:
     # Assigns groups of users to a product.
@@ -768,15 +768,15 @@ Updates the details of a product. Conditions to be able to perform the action:  
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
-update_product_request_body = swagger_client.UpdateProduct() # UpdateProduct | JSON data that contains product details to update
+update_product_request_body = iriusrisk_python_client_lib.UpdateProduct() # UpdateProduct | JSON data that contains product details to update
 
 try:
     # Updates a product
@@ -819,12 +819,12 @@ This endpoint returns a summary of the risks of a product. Conditions to be able
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 
@@ -869,12 +869,12 @@ Imports test results from different sources (OWASP ZAP, Cucumber, Micro Focus Fo
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 test_type = 'test_type_example' # str | Type of test to be imported (zap|cucumber|junit|hp-fortify)
@@ -923,12 +923,12 @@ Returns a list of all the threats of a product. Conditions to be able to perform
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 
@@ -973,15 +973,15 @@ Unassign a list of users from a product. Conditions to be able to perform the ac
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference for product
-unassign_users_product_request_body = swagger_client.UnassignUsersProductRequestBody() # UnassignUsersProductRequestBody | JSON object that contains information to unassign users from product
+unassign_users_product_request_body = iriusrisk_python_client_lib.UnassignUsersProductRequestBody() # UnassignUsersProductRequestBody | JSON object that contains information to unassign users from product
 
 try:
     # Unassigns a list of users from a product.
@@ -1024,12 +1024,12 @@ List all users assigned to a product.     Conditions to be able to perform the a
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference to product
 
@@ -1074,15 +1074,15 @@ Assigns users to a product. Conditions to be able to perform the action:   - To 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference for product
-assign_users_product_request_body = swagger_client.AssignUsersProductRequestBody() # AssignUsersProductRequestBody | JSON data that contains the information to assign users to product
+assign_users_product_request_body = iriusrisk_python_client_lib.AssignUsersProductRequestBody() # AssignUsersProductRequestBody | JSON data that contains the information to assign users to product
 
 try:
     # Assigns users to a product.
@@ -1126,12 +1126,12 @@ Unassigns a user from a product. Conditions to be able to perform the action:   
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Reference for product
 user = 'user_example' # str | Username of the user who will be unassigned from the product
@@ -1177,12 +1177,12 @@ Returns a list of all the weaknesses of a product. Conditions to be able to perf
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 
@@ -1227,12 +1227,12 @@ Returns a list of all the weaknesses of a product. With the optional parameter `
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 test_state = 'test_state_example' # str | Code for a test state
@@ -1279,12 +1279,12 @@ Creates a new product, library or template from a XML file upload. Conditions to
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | Product ref
 name = 'name_example' # str | Product name
@@ -1335,12 +1335,12 @@ Updates a product from a XML file upload. Conditions to be able to perform the a
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for product
 file_name = '/path/to/file.txt' # file | File to upload in XML format
@@ -1389,12 +1389,12 @@ Execute the rules engine for a product and for all components within the product
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProductsApi()
+api_instance = iriusrisk_python_client_lib.ProductsApi()
 api_token = 'api_token_example' # str | Authentication token
 ref = 'ref_example' # str | ID for Product
 delete_countermeasures = 'delete_countermeasures_example' # str | This flag indicates if the rules execution will delete the threat and countermeasures which don't apply to the new product threat model. If true, the threats and countermeasures will be automatically removed from the model. If false, the threats and countermeasures won't be removed from the model. (optional)

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.data_flow_assets import DataFlowAssets  # noqa: E501
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.models.data_flow_assets import DataFlowAssets  # noqa: E501
+from iriusrisk_python_client_lib.rest import ApiException
 
 
 class TestDataFlowAssets(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestDataFlowAssets(unittest.TestCase):
     def testDataFlowAssets(self):
         """Test DataFlowAssets"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.data_flow_assets.DataFlowAssets()  # noqa: E501
+        # model = iriusrisk_python_client_lib.models.data_flow_assets.DataFlowAssets()  # noqa: E501
         pass
 
 

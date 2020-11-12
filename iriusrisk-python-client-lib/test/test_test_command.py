@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.test_command import TestCommand  # noqa: E501
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.models.test_command import TestCommand  # noqa: E501
+from iriusrisk_python_client_lib.rest import ApiException
 
 
 class TestTestCommand(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestTestCommand(unittest.TestCase):
     def testTestCommand(self):
         """Test TestCommand"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.test_command.TestCommand()  # noqa: E501
+        # model = iriusrisk_python_client_lib.models.test_command.TestCommand()  # noqa: E501
         pass
 
 

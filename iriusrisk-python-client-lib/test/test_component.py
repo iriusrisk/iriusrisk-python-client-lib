@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.component import Component  # noqa: E501
-from swagger_client.rest import ApiException
+import iriusrisk_python_client_lib
+from iriusrisk_python_client_lib.models.component import Component  # noqa: E501
+from iriusrisk_python_client_lib.rest import ApiException
 
 
 class TestComponent(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestComponent(unittest.TestCase):
     def testComponent(self):
         """Test Component"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.component.Component()  # noqa: E501
+        # model = iriusrisk_python_client_lib.models.component.Component()  # noqa: E501
         pass
 
 
